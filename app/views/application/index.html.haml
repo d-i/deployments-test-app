@@ -1,0 +1,15 @@
+%h1 Blog Test
+
+- Post.all.each do |post|
+  %h2= post.title
+  %p= post.body
+
+%h2 Rails information
+
+%p
+  %strong Ruby version:
+  %code= RUBY_VERSION
+
+%p
+  %strong Stripe API key:
+  %code= Rails.application.config.stripe_api_key
