@@ -7,7 +7,7 @@ development:
   <<: *default
   database: titan_development
   username: titan
-  password: abcd1234
+  password: <%= ENV["DB_PASSWORD"] %>
   host: localhost
 
 test: &test
