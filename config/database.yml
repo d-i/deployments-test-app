@@ -19,6 +19,7 @@ test: &test
 
 production:
   <<: *default
-  database: OneCallNowRails_test
+  database: titan_development
+  username: titan
   password: abcd1234
-  username: OneCallNow
+  host: localhost
