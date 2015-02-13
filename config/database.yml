@@ -7,15 +7,18 @@ development:
   <<: *default
   database: titan_development
   username: titan
+  password: abcd1234
   host: localhost
 
 test: &test
   <<: *default
   database: titan_development
   username: titan
+  password: abcd1234
   host: localhost
 
 production:
   <<: *default
   database: OneCallNowRails_test
+  password: abcd1234
   username: OneCallNow
