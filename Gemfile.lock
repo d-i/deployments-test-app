@@ -1,3 +1,19 @@
+GIT
+  remote: git://github.com/joefiorini/sass-css-importer.git
+  revision: 465a260ce92055572b2a7d2cd5e356d74ec9260a
+  branch: load-paths
+  specs:
+    sass-css-importer (1.0.0.beta.0)
+      sass (>= 3.1)
+
+GIT
+  remote: git://github.com/wiegand/half-pipe.git
+  revision: 2bb129573013e079304634e3342f8394b53d0572
+  specs:
+    half-pipe (0.3.0.beta.2)
+      rails (>= 4.0.0)
+      sass
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -119,11 +135,13 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   figaro
+  half-pipe!
   haml
   jbuilder (~> 1.2)
   jquery-rails
   pg
   rails (= 4.0.2)
+  sass-css-importer!
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3

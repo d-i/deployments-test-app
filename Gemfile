@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'pg'
 gem 'haml'
 gem 'whenever', require: false
+gem 'half-pipe', github: "wiegand/half-pipe"
 
 gem 'figaro'
 
@@ -49,3 +50,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem "sass-css-importer", github: "joefiorini/sass-css-importer", branch: "load-paths"
